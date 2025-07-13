@@ -41,33 +41,33 @@ export default function HeaderSix() {
               </div>
               <div className="col-xl-5 col-lg-8 col-md-8 col-8">
                 <div className="tp-inner-header-2-right d-flex align-items-center justify-content-end">
-                  <div className="tp-inner-header-2-search p-relative d-none d-lg-block">
+                  {/* <div className="tp-inner-header-2-search p-relative d-none d-lg-block">
                     <input type="text" placeholder="Search" />
                     <span>
                       <Search/>
                     </span>
-                  </div>
-                  <button className="tp-shop-mob-search d-lg-none">
+                  </div> */}
+                  {/* <button className="tp-shop-mob-search d-lg-none">
                     <span>
                     <Search/>
                     </span>
-                  </button>
+                  </button> */}
                   <Link className="tp-inner-header-2-wishlist p-relative" href="/wishlist">
-                    <i>o</i>
+                    {/* <i>o</i>
                     <span>
                       <Wishlist/>
-                    </span>
+                    </span> */}
                   </Link>
                   <button onClick={()=> setOpenOffcanvas(true)} className="tp-inner-header-2-bar tp-offcanvas-open-btn">
                     <span>
                       <Menu/>
                     </span>
                   </button>
-                  <button onClick={() => setOpenCartMini(true)} className="tp-inner-header-2-cart cartmini-open-btn">
+                  {/* <button onClick={() => setOpenCartMini(true)} className="tp-inner-header-2-cart cartmini-open-btn">
                     <span>
                       <Zero/>
                     </span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

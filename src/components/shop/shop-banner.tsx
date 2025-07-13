@@ -16,8 +16,8 @@ export default function ShopBanner() {
               </div>
               <div className="tp-shop-banner-content">
                 <h4 className="tp-shop-banner-title">Sale</h4>
-                <span>20% Off all Shoes</span>
-                <Link className="tp-shop-btn" href="/shop">
+                <span>20% Off all Products</span>
+                <Link className="tp-shop-btn" href="/#">
                   Shop Now
                 </Link>
               </div>
@@ -33,11 +33,11 @@ export default function ShopBanner() {
                   Special Offer
                 </h4>
                 <span className="text-color-black">
-                  Up to 65% off first order
+                  Up to 25% off first order
                 </span>
                 <Link
                   className="tp-shop-btn border-style"
-                  href="/shop"
+                  href="#"
                 >
                   Shop Now
                 </Link>

@@ -30,7 +30,7 @@ export default function ShopProducts() {
               <div className="col-6">
                 <div className="tp-shop-top-text text-end">
                   <span>
-                    <Link href="/shop">View all</Link>
+                    <Link href="#">View all</Link>
                   </span>
                 </div>
               </div>

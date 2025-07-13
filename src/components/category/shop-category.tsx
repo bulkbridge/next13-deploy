@@ -9,17 +9,17 @@ const category_data = [
   {
     id: 1,
     img: cate_1,
-    title: "Shop men",
+    title: "Shop now"
   },
   {
     id: 2,
     img: cate_2,
-    title: "Shop Women",
+    title: "Shop now",
   },
   {
     id: 3,
     img: cate_3,
-    title: "Shop kids",
+    title: "Shop now",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function ShopCategory() {
             <div key={item.id} className="col-xl-4 col-lg-6 col-md-6 mb-30">
               <div className="tp-shop-category-item p-relative fix">
                 <Image src={item.img} alt="category-img" style={{height:"auto"}} />
-                <Link className="tp-btn-shop-category" href="/shop">
+                <Link className="tp-btn-shop-category" href="#">
                   {item.title}
                 </Link>
               </div>

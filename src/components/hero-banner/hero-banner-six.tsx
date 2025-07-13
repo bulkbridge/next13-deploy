@@ -10,19 +10,19 @@ const hero_data = [
     id: 1,
     bg: "/assets/img/inner-shop/home/slider-1.jpg",
     subtitle: "YOU MAY NEED",
-    title: "Shoes <br/> Collection",
+    title: "Buynuts <br/> Collection",
   },
   {
     id: 2,
     bg: "/assets/img/inner-shop/home/slider-2.jpg",
     subtitle: "NEW ARRIVALS",
-    title: "Shoes <br/> Collection",
+    title: "Buynuts <br/> Collection",
   },
   {
     id: 3,
     bg: "/assets/img/inner-shop/home/slider-3.jpg",
     subtitle: "NEW ARRIVALS",
-    title: "Shoes <br/> Collection",
+    title: "Buynuts <br/> Collection",
   },
 ];
 
@@ -98,7 +98,7 @@ export default function HeroBannerSix() {
                           ></h2>
                         </div>
                         <div className="tp-shop-slider-btn-box">
-                          <Link className="tp-shop-btn" href="/shop">
+                          <Link className="tp-shop-btn" href="#">
                             Shop Now
                           </Link>
                         </div>
