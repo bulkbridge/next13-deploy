@@ -4,7 +4,7 @@ import HomePageFour from "./(homes)/home-6/page";
 
 
 export const metadata: Metadata = {
-  title: "Liko - Home Page",
+  title: "Bulkbridge - Home Page",
 };
 
 export default function Home() {
